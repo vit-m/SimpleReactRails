@@ -1,4 +1,6 @@
 import React, { Fragment } from 'react'
+import '../locales/i18n'
+
 import Header from './layouts/Header'
 
 import './App.scss'
