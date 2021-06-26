@@ -1,10 +1,11 @@
 import React, { Fragment } from 'react'
+import './App.scss'
 
 const App = () => {
   return (
-    <h3>
+    <Fragment>
       React on Rails! I'am FullStack Developer
-    </h3>
+    </Fragment>
   )
 }
 
