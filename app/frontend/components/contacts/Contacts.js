@@ -1,6 +1,8 @@
 import React, { useEffect, useState, Fragment } from 'react'
 import axios from 'axios'
 
+import ContactItem from './ContactItem'
+
 const Contacts = () => {
   const [contacts, setContacts] = useState(null)
 
@@ -15,7 +17,7 @@ const Contacts = () => {
 
   return (
     <Fragment>
-      {contacts && contacts.map(contact => <div key={contact.id}>{contact.name}</div>)}
+      {contacts && contacts.map(contact => <ContactItem key={contact.id} name={contact.name} email={contact.email} />)}
     </Fragment>
   )
 }
