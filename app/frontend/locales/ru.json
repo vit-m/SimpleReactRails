@@ -1,4 +1,15 @@
 {
+  "contact": {
+    "email": "Email",
+    "name": "Имя"
+  },
+  "forms": {
+    "placeholders": {
+      "email": "Введите email",
+      "name": "Введите имя"
+    },
+    "submit": "Сохранить"
+  },
   "navi": {
     "add_contacts": "Добавить контакт",
     "contacts": "Контакты"

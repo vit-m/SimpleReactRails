@@ -1,4 +1,15 @@
 {
+  "contact": {
+    "email": "Email",
+    "name": "Name"
+  },
+  "forms": {
+    "placeholders": {
+      "email": "Please enter email",
+      "name": "Please enter name"
+    },
+    "submit": "Submit"
+  },
   "navi": {
     "add_contacts": "Add Contact",
     "contacts": "Contacts"
