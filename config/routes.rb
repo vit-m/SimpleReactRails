@@ -4,5 +4,7 @@ Rails.application.routes.draw do
       resources :contacts, only: %i[create index]
     end
   end
+
   root 'index#index'
+  match '*path', to: 'index#index', via: :all
 end
